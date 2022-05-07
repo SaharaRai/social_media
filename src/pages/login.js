@@ -20,7 +20,8 @@ const Login = () => {
     event.preventDefault();
 
     try {
-      await firebase.auth().signInWithEmailandPassword(emailAddress, password);
+      await firebase.auth().signInWithEmailAndPassword(emailAddress, password);
+
       // history.push(ROUTES.DASHBOARD);
       navigate(ROUTES.PROFILE);
     } catch (error) {
