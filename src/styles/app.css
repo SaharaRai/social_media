@@ -460,8 +460,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-2 {
   margin-bottom: 0.5rem;
 }
+.mb-8 {
+  margin-bottom: 2rem;
+}
 .flex {
   display: flex;
+}
+.grid {
+  display: grid;
 }
 .h-screen {
   height: 100vh;
@@ -471,6 +477,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .h-8 {
   height: 2rem;
+}
+.h-16 {
+  height: 4rem;
+}
+.h-full {
+  height: 100%;
 }
 .w-3\/5 {
   width: 60%;
@@ -490,6 +502,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .max-w-screen-lg {
   max-width: 1024px;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
 .flex-col {
   flex-direction: column;
 }
@@ -499,11 +514,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-center {
   justify-content: center;
 }
+.justify-between {
+  justify-content: space-between;
+}
 .rounded {
   border-radius: 0.25rem;
 }
 .border {
   border-width: 1px;
+}
+.border-b {
+  border-bottom-width: 1px;
 }
 .border-gray-primary {
   --tw-border-opacity: 1;

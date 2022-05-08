@@ -60,7 +60,7 @@ const SignUp = () => {
   };
 
   useEffect(() => {
-    document.title = "Sign Up - Instagram";
+    document.title = "Sign Up - Social Media";
   }, []);
 
   return (
