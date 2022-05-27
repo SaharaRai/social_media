@@ -1,4 +1,4 @@
-# React Firebase App
+This is a social media clone app built using react, firebase and styled using tailwind.
 
 ## Tech Stack
 
