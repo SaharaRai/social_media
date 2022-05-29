@@ -444,6 +444,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 1536px;
   }
 }
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -471,6 +474,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+.mt-4 {
+  margin-top: 1rem;
 }
 .mb-6 {
   margin-bottom: 1.5rem;
@@ -523,11 +529,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-2\/5 {
   width: 40%;
 }
-.w-16 {
-  width: 4rem;
-}
-.w-14 {
-  width: 3.5rem;
+.w-8 {
+  width: 2rem;
 }
 .max-w-screen-lg {
   max-width: 1024px;
@@ -544,6 +547,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
+.flex-row {
+  flex-direction: row;
+}
 .flex-col {
   flex-direction: column;
 }
@@ -558,6 +564,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .gap-4 {
   gap: 1rem;
+}
+.gap-5 {
+  gap: 1.25rem;
 }
 .rounded-full {
   border-radius: 9999px;

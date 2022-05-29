@@ -1,18 +1,27 @@
+import React from "react";
 import useUser from "../../hooks/use-user";
 import Suggestions from "./suggestions";
 import User from "./user";
 
-const Sidebar = () => {
+function Sidebar() {
   const {
-    user: { fullName, username, userId },
+    user: { docId, fullName, username, userId, following },
   } = useUser();
   // console.log("x", fullName, username, userId);
+  // console.log("following", following);
+
   return (
-    <div>
+    <div className="p-4">
       <User username={username} fullName={fullName} />
-      <Suggestions userId={userId} />
+      <Suggestions
+        userId={userId}
+        following={following}
+        loggedInUser_docId={docId}
+      />
     </div>
   );
-};
+}
 
 export default Sidebar;
+
+Sidebar.whyDidYouRender = true;

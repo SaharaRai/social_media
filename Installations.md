@@ -10,6 +10,7 @@ npm i -D prop-types
 npm i -D postcss postcss-cli
 npm install npm-run-all --save-dev
 npm i -D autoprefixer
+npm install @welldone-software/why-did-you-render --save-dev
 
 Script changes for tailwind in package.json as follows:
 FROM:
