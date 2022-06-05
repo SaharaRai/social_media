@@ -7,7 +7,7 @@ import * as ROUTES from "../constants/routes";
 const Header = () => {
   const { firebase } = useContext(FirebaseContext);
   const { user } = useContext(UserContext);
-  console.log("user", user);
+  // console.log("user", user);
 
   return (
     <div>

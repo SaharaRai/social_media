@@ -61,6 +61,12 @@ const Actions = ({ docId, totalLikes, likedPhoto, handleFocus }) => {
             viewBox="0 0 24 24"
             stroke="currentColor"
             strokeWidth="2"
+            onClick={handleFocus}
+            onKeyDown={(event) => {
+              if (event.key === "Enter") {
+                handleFocus();
+              }
+            }}
           >
             <path
               strokeLinecap="round"

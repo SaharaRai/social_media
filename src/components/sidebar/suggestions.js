@@ -18,7 +18,7 @@ const Suggestions = ({ userId, following, loggedInUser_docId }) => {
     if (userId) {
       // only call this functionif userId exists/found
       suggestedProfiles();
-      console.log("profiles", profiles);
+      // console.log("profiles", profiles);
     }
   }, [userId]);
 

@@ -502,6 +502,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-6 {
   margin-bottom: 1.5rem;
 }
+.mt-3 {
+  margin-top: 0.75rem;
+}
 .flex {
   display: flex;
 }
@@ -608,6 +611,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-b {
   border-bottom-width: 1px;
 }
+.border-t {
+  border-top-width: 1px;
+}
 .border-gray-primary {
   --tw-border-opacity: 1;
   border-color: rgb(219 219 219 / var(--tw-border-opacity));
@@ -646,6 +652,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .pt-1 {
   padding-top: 0.25rem;
 }
@@ -657,6 +667,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pb-0 {
   padding-bottom: 0px;
+}
+.pl-0 {
+  padding-left: 0px;
+}
+.pr-5 {
+  padding-right: 1.25rem;
 }
 .text-center {
   text-align: center;
@@ -701,6 +717,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .opacity-50 {
   opacity: 0.5;
+}
+.opacity-25 {
+  opacity: 0.25;
 }
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
